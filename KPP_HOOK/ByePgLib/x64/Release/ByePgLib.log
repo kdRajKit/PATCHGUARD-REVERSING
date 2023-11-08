@@ -1,0 +1,24 @@
+﻿  Building 'ByePgLib' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  ByePg.cpp
+C:\Users\RajKit\Desktop\ByePg-master\Includes\ByePg.h(17,23): warning C4518: '__declspec(dllexport)': no se esperaban especificadores de tipo o clase de almacenamiento aquí; se han omitido
+C:\Users\RajKit\Desktop\ByePg-master\Includes\ByePg.h(17,23): warning C4502: La 'especificación de vinculación' requiere el uso de la palabra clave 'extern' y debe preceder al resto de los especificadores
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\Internals.h(27,3): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(56,22): warning C4244: 'inicializando': conversión de 'ULONG64' a 'ULONG'; posible pérdida de datos
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(78,49): warning C4244: '=': conversión de 'ULONG64' a 'NTSTATUS'; posible pérdida de datos
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(109,37): warning C4244: '=': conversión de 'ULONG64' a 'NTSTATUS'; posible pérdida de datos
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(125,37): warning C4244: '=': conversión de 'ULONG64' a 'NTSTATUS'; posible pérdida de datos
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(132,37): warning C4244: '=': conversión de 'ULONG64' a 'NTSTATUS'; posible pérdida de datos
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\ExceptionHandler.h(37,22): warning C4244: 'inicializando': conversión de 'ULONG64' a 'ULONG'; posible pérdida de datos
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\ExceptionHandler.h(33,23): warning C4189: 'BugCheckState': la variable local se ha inicializado pero no se hace referencia a ella
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\ExceptionHandler.h(188,3): warning C4100: 'x': parámetro formal sin referencia
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\HAL.h(32,4): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\HAL.h(37,4): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\HAL.h(42,4): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\HAL.h(47,4): warning C4201: se ha utilizado una extensión no estándar: struct/union sin especificar
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\ByePg.cpp(9,23): warning C4518: '__declspec(dllexport)': no se esperaban especificadores de tipo o clase de almacenamiento aquí; se han omitido
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\ByePg.cpp(9,23): warning C4502: La 'especificación de vinculación' requiere el uso de la palabra clave 'extern' y debe preceder al resto de los especificadores
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(19): warning C4706: asignación en la expresión condicional
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(48): warning C4715: 'BugCheck::FindContext': no todas las rutas de acceso de control devuelven un valor
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\NT\BugCheck.h(144): warning C4706: asignación en la expresión condicional
+C:\Users\RajKit\Desktop\ByePg-master\ByePgLib\ByePg.cpp(48): warning C4715: 'ByePgInitialize': no todas las rutas de acceso de control devuelven un valor
+  ByePgLib.vcxproj -> C:\Users\RajKit\Desktop\ByePg-master\Output\ByePgLib.lib
